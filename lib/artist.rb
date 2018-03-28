@@ -4,6 +4,7 @@ class Artist
   def initialize(name)
     @name = name
     @songs = []
+    @song_count = 0
   end
 
   def songs
@@ -21,6 +22,6 @@ class Artist
   end
 
   def self.song_count
-    @songs.length
+    
   end
 end
